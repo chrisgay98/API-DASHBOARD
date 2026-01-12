@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>API Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>API Dashboard</h1>
+    <p class="small">8 mini apps using real APIs</p>
+  </header>
+
+  <main class="grid">
+    <!-- GitHub -->
+    <section class="card">
+      <h2>🧑‍💻 GitHub User</h2>
+      <input id="gh-user" placeholder="Enter GitHub username (e.g. octocat)" />
+      <button id="gh-btn">Search</button>
+      <div id="gh-output" class="output"></div>
+    </section>
+
+    <!-- Currency -->
+    <section class="card">
+      <h2>💱 Currency Converter</h2>
+      <div class="row">
+        <input id="cur-amount" type="number" placeholder="Amount (e.g. 10)" />
+        <input id="cur-from" placeholder="From (e.g. USD)" />
+        <input id="cur-to" placeholder="To (e.g. EUR)" />
+      </div>
+      <button id="cur-btn">Convert</button>
+      <div id="cur-output" class="output"></div>
+    </section>
+
+    <!-- Dictionary -->
+    <section class="card">
+      <h2>📚 Dictionary</h2>
+      <input id="word-input" placeholder="Enter a word (e.g. brilliant)" />
+      <button id="word-btn">Define</button>
+      <div id="word-output" class="output"></div>
+    </section>
+
+    <!-- Dog -->
+    <section class="card">
+      <h2>🐶 Dog Image</h2>
+      <button id="dog-btn">Get Dog</button>
+      <div id="dog-output" class="output"></div>
+    </section>
+
+    <!-- Cat Image -->
+    <section class="card">
+      <h2>🐱 Cat Image</h2>
+      <button id="catimg-btn">Get Cat</button>
+      <div id="catimg-output" class="output"></div>
+    </section>
+
+    <!-- Joke -->
+    <section class="card">
+      <h2>😂 Joke</h2>
+      <button id="joke-btn">Get Joke</button>
+      <div id="joke-output" class="output"></div>
+    </section>
+
+    <!-- Weather -->
+    <section class="card">
+      <h2>🌤️ Weather</h2>
+      <input id="wx-city" placeholder="City (e.g. San Jose)" />
+      <button id="wx-btn">Get Weather</button>
+      <div id="wx-output" class="output"></div>
+    </section>
+
+    <!-- Cat Fact -->
+    <section class="card">
+      <h2>🐱 Cat Fact</h2>
+      <button id="catfact-btn">Get Fact</button>
+      <div id="catfact-output" class="output"></div>
+    </section>
+
+    <!-- Rick & Morty -->
+    <section class="card">
+      <h2>🧪 Rick & Morty</h2>
+      <input id="rm-id" placeholder="Character ID (e.g. 1)" />
+      <button id="rm-btn">Get Character</button>
+      <div id="rm-output" class="output"></div>
+    </section>
+
+    <!-- Studio Ghibli -->
+    <section class="card">
+      <h2>🎥 Studio Ghibli</h2>
+      <button id="ghibli-btn">Load Films</button>
+      <div id="ghibli-output" class="output"></div>
+    </section>
+
+    <!-- Bob's Burgers -->
+    <section class="card">
+      <h2>🍔 Bob’s Burgers</h2>
+      <input id="bobs-id" placeholder="Character ID (e.g. 1)" />
+      <button id="bobs-btn">Get Character</button>
+      <div id="bobs-output" class="output"></div>
+    </section>
+
+    <!-- Replacement #1: Random User -->
+    <section class="card">
+      <h2>👤 Random User</h2>
+      <button id="user-btn">Generate User</button>
+      <div id="user-output" class="output"></div>
+    </section>
+
+    <!-- Replacement #2: Pokémon -->
+    <section class="card">
+      <h2>⚡ Pokémon</h2>
+      <input id="poke-name" placeholder="Name or ID (e.g. pikachu or 25)" />
+      <button id="poke-btn">Get Pokémon</button>
+      <div id="poke-output" class="output"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
